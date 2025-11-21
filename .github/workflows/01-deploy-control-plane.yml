@@ -254,7 +254,6 @@ jobs:
           ARM_TENANT_ID:                          ${{ vars.ARM_TENANT_ID }}
           ARM_USE_MSI:                            ${{ vars.USE_MSI }}
           CONTROL_PLANE_NAME:                     ${{ inputs.control_plane_name }}
-          DEPLOYER_KEYVAULT:                      ${{ vars.DEPLOYER_KEYVAULT }}
           DEPLOYER_TFSTATE_KEY:                   "${{ inputs.control_plane_name }}-INFRASTRUCTURE.terraform.tfstate"
           FORCE_RESET:                            ${{ inputs.force_reset }}
           IS_PIPELINE_DEPLOYMENT:                 true

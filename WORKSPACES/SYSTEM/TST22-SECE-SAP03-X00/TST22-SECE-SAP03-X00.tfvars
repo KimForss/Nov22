@@ -316,7 +316,7 @@ sid = "X00"
 
 # disk_controller_type_app_tier defines the disk controller type for the application tier.
 # Valid values are "NVMe", or "SCSI"
-disk_controller_type_app_tier = "NVMe"
+disk_controller_type_app_tier = "SCSI"
 
 #########################################################################################
 #                                                                                       #
@@ -922,7 +922,7 @@ use_spn = false
 
 # configuration_settings is a dictionary containing values that will be persisted in sap-parameters.yaml
 configuration_settings = {
-  "use_nvme_disks" = "true"
+  "use_nvme_disks" = "false"
 }
 ############################################################################################
 #                                                                                          #

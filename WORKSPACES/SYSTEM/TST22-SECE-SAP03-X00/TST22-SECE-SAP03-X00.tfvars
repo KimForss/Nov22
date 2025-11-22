@@ -65,7 +65,7 @@ use_zonal_markers = true
 use_secondary_ips = false
 
 # subscription is the subscription in which the system will be deployed (informational only)
-subscription_id = "8d8422a3-a9c1-4fe9-b880-adcf61557c71"
+subscription_id = "d6c8e3b6-467e-452e-97c9-49d9de9e37da"
 
 # use_scalesets_for_deployment defines if Flexible Virtual Machine Scale Sets are used for the deployment
 use_scalesets_for_deployment = false

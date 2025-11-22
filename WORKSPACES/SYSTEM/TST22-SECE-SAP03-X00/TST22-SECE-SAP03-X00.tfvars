@@ -303,7 +303,7 @@ disk_controller_type_database_tier = "NVMe"
 #                                                                                       #
 #########################################################################################
 # app_tier_sizing_dictionary_key defines the VM SKU and the disk layout for the application tier servers.
-app_tier_sizing_dictionary_key = "Custom"
+app_tier_sizing_dictionary_key = "Optimized"
 
 # enable_app_tier_deployment is a boolean flag controlling if the application tier should be deployed
 enable_app_tier_deployment = true

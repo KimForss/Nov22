@@ -1,0 +1,3 @@
+deployer_tfstate_key=CPL22-SECE-DEP10-INFRASTRUCTURE.terraform.tfstate
+APPLICATION_CONFIGURATION_ID=/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/CPL22-SECE-DEP10-INFRASTRUCTURE/providers/Microsoft.AppConfiguration/configurationStores/cpl22seceapc63c
+CONTROL_PLANE_NAME=CPL22-SECE-DEP10

@@ -1,0 +1,4 @@
+{
+    "configurationType": "Discovery",
+    "centralServerVmId": "/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/TST22-SECE-SAP03-X00/providers/Microsoft.Compute/virtualMachines/TST22-SECE-SAP03-X00_x00scs_z1_00l9b9"
+}

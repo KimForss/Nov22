@@ -932,6 +932,7 @@ configuration_settings = {
 
 # These tags will be applied to all resources
 tags = {
+Owner = "Kimmo"
 }
 
 

@@ -33,6 +33,12 @@ resourcegroup_tags = {
   Control_plane = "swedencentral"
 }
 
+tags = {
+  Owner = "SDAF"
+}
+
+
+
 #########################################################################################
 #                                                                                       #
 #  Networking                                                                           #

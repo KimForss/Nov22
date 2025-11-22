@@ -295,7 +295,7 @@ database_use_avset = false
 
 # disk_controller_type_database_tier defines the disk controller type for the database tier.
 # Valid values are "NVMe", or "SCSI"
-disk_controller_type_database_tier = "NVMe"
+disk_controller_type_database_tier = "SCSI"
 
 #########################################################################################
 #                                                                                       #

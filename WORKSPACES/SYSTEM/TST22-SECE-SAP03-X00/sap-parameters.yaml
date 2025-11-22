@@ -100,10 +100,10 @@ db_high_availability:          false
 database_high_availability:    false
 database_cluster_type:         AFA
 # database_loadbalancer_ip is the IP address of the load balancer for the database virtual machines
-database_loadbalancer_ip:      10.110.96.6
+database_loadbalancer_ip:      10.110.96.5
 
 # Backwards compatibility
-db_lb_ip:                      10.110.96.6
+db_lb_ip:                      10.110.96.5
 
 
 
@@ -124,7 +124,7 @@ use_fence_kdump:               false
 #############################################################################
 
 NFS_provider:                  AFS
-sap_mnt:                       tst22secesap03x00sapmnt9.privatelink.file.core.windows.net:/tst22secesap03x00sapmnt9/sapmnt
+sap_mnt:                       tst22secesap03x00sapmnt7.privatelink.file.core.windows.net:/tst22secesap03x00sapmnt7/sapmnt
 
 
 
@@ -161,17 +161,17 @@ use_nvme_disks: false
 # If there are multiple disks of the same type they will be placed in an LVM
 
 disks:
-  - { host: 'x00dhdb00l09b', LUN: 0, type: 'data' }
-  - { host: 'x00dhdb00l09b', LUN: 1, type: 'data' }
-  - { host: 'x00dhdb00l09b', LUN: 2, type: 'data' }
-  - { host: 'x00dhdb00l09b', LUN: 9, type: 'log' }
-  - { host: 'x00dhdb00l09b', LUN: 6, type: 'shared' }
-  - { host: 'x00dhdb00l09b', LUN: 14, type: 'sap' }
-  - { host: 'x00dhdb00l09b', LUN: 15, type: 'backup' }
-  - { host: 'x00app00l9b9', LUN: 0, type: 'sap' }
-  - { host: 'x00scs00l9b9', LUN: 0, type: 'sap' }
-  - { host: 'x00scs01l9b9', LUN: 0, type: 'sap' }
-  - { host: 'x00web00l9b9', LUN: 0, type: 'sap' }
+  - { host: 'x00dhdb00l075', LUN: 0, type: 'data' }
+  - { host: 'x00dhdb00l075', LUN: 1, type: 'data' }
+  - { host: 'x00dhdb00l075', LUN: 2, type: 'data' }
+  - { host: 'x00dhdb00l075', LUN: 9, type: 'log' }
+  - { host: 'x00dhdb00l075', LUN: 6, type: 'shared' }
+  - { host: 'x00dhdb00l075', LUN: 14, type: 'sap' }
+  - { host: 'x00dhdb00l075', LUN: 15, type: 'backup' }
+  - { host: 'x00app00l757', LUN: 0, type: 'sap' }
+  - { host: 'x00scs00l757', LUN: 0, type: 'sap' }
+  - { host: 'x00scs01l757', LUN: 0, type: 'sap' }
+  - { host: 'x00web00l757', LUN: 0, type: 'sap' }
 
 
 

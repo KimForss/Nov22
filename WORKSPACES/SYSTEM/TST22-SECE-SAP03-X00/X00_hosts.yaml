@@ -1,14 +1,14 @@
 X00_DB:
   hosts:
-    x00dhdb00l09b:
-      ansible_host        : 10.110.96.5
+    x00dhdb00l075:
+      ansible_host        : 10.110.96.6
       ansible_user        : azureadm
       ansible_connection  : ssh
       connection_type     : key
-      virtual_host        : x00dhdb00l09b
+      virtual_host        : x00dhdb00l075
       become_user         : root
       os_type             : linux
-      vm_name             : TST22-SECE-SAP03-X00_x00dhdb_z1_00l09b9
+      vm_name             : TST22-SECE-SAP03-X00_x00dhdb_z1_00l0757
       resource_group_name : TST22-SECE-SAP03-X00
       subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
       use_nvme_disks      : false
@@ -19,15 +19,15 @@ X00_DB:
 
 X00_SCS:
   hosts:
-    x00scs00l9b9:
-      ansible_host        : 10.110.32.10
+    x00scs00l757:
+      ansible_host        : 10.110.32.11
       ansible_user        : azureadm
       ansible_connection  : ssh
       connection_type     : key
-      virtual_host        : x00scs00l9b9
+      virtual_host        : x00scs00l757
       become_user         : root
       os_type             : linux
-      vm_name             : TST22-SECE-SAP03-X00_x00scs_z1_00l9b9
+      vm_name             : TST22-SECE-SAP03-X00_x00scs_z1_00l757
       resource_group_name : TST22-SECE-SAP03-X00
       subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
       use_nvme_disks      : false
@@ -38,15 +38,15 @@ X00_SCS:
 
 X00_ERS:
   hosts:
-    x00scs01l9b9:
-      ansible_host        : 10.110.32.11
+    x00scs01l757:
+      ansible_host        : 10.110.32.9
       ansible_user        : azureadm
       ansible_connection  : ssh
       connection_type     : key
-      virtual_host        : x00scs01l9b9
+      virtual_host        : x00scs01l757
       become_user         : root
       os_type             : linux
-      vm_name             : TST22-SECE-SAP03-X00_x00scs_z2_01l9b9
+      vm_name             : TST22-SECE-SAP03-X00_x00scs_z2_01l757
       resource_group_name : TST22-SECE-SAP03-X00
       subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
       use_nvme_disks      : false
@@ -57,15 +57,15 @@ X00_ERS:
 
 X00_PAS:
   hosts:
-    x00app00l9b9:
-      ansible_host        : 10.110.32.9
+    x00app00l757:
+      ansible_host        : 10.110.32.10
       ansible_user        : azureadm
       ansible_connection  : ssh
       connection_type     : key
-      virtual_host        : x00app00l9b9
+      virtual_host        : x00app00l757
       become_user         : root
       os_type             : linux
-      vm_name             : TST22-SECE-SAP03-X00_x00app_z1_00l9b9
+      vm_name             : TST22-SECE-SAP03-X00_x00app_z1_00l757
       resource_group_name : TST22-SECE-SAP03-X00
       subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
       use_nvme_disks      : false
@@ -82,15 +82,15 @@ X00_APP:
 
 X00_WEB:
   hosts:
-    x00web00l9b9:
+    x00web00l757:
       ansible_host        : 10.110.64.5
       ansible_user        : azureadm
       ansible_connection  : ssh
       connection_type     : key
-      virtual_host        : x00web00l9b9
+      virtual_host        : x00web00l757
       become_user         : root
       os_type             : linux
-      vm_name             : TST22-SECE-SAP03-X00_rhwweb_z1_00l9b9
+      vm_name             : TST22-SECE-SAP03-X00_rhwweb_z1_00l757
       resource_group_name : TST22-SECE-SAP03-X00
       subscription_id     : d6c8e3b6-467e-452e-97c9-49d9de9e37da
       use_nvme_disks      : false

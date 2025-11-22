@@ -24,5 +24,6 @@ use_private_endpoint = true
 
 
 
+
 # The parameter 'custom_random_id' can be used to control the random 3 digits at the end of the storage accounts and key vaults
 custom_random_id = "c0b"

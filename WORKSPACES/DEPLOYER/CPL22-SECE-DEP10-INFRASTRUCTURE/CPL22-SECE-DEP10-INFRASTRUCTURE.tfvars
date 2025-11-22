@@ -37,7 +37,7 @@ tags = {
   Owner = "SDAF"
 }
 
-
+prevent_deletion_if_contains_resources = false
 
 #########################################################################################
 #                                                                                       #

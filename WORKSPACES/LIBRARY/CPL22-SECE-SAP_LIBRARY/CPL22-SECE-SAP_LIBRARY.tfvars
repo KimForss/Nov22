@@ -12,7 +12,7 @@ use_private_endpoint = true
 
 #assign_permissions = false
 
-
+prevent_deletion_if_contains_resources = false
 
 
 

@@ -523,7 +523,7 @@ webdispatcher_server_image = {
 deploy_application_security_groups = true
 
 # deploy_v1_monitoring_extension Defines if the Microsoft.AzureCAT.AzureEnhancedMonitoring extension will be deployed
-deploy_v1_monitoring_extension = true
+deploy_v1_monitoring_extension = false
 
 # If defined, will add the Microsoft.Azure.Monitor.AzureMonitorLinuxAgent extension to the virtual machines
 deploy_monitoring_extension = false

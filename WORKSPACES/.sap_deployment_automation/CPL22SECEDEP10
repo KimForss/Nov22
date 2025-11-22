@@ -10,5 +10,5 @@ REMOTE_STATE_SA=cpl22secetfstatec0b
 REMOTE_STATE_RG=CPL22-SECE-SAP_LIBRARY
 tfstate_resource_id=/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/CPL22-SECE-SAP_LIBRARY/providers/Microsoft.Storage/storageAccounts/cpl22secetfstatec0b
 STATE_SUBSCRIPTION=
-step=3
+step=0
 ARM_SUBSCRIPTION_ID=d6c8e3b6-467e-452e-97c9-49d9de9e37da

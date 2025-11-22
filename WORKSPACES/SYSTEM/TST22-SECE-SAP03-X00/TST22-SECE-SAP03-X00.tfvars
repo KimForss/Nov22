@@ -44,7 +44,7 @@ Description = "HANA high availability system on RedHat RHEL-SAP-HA 96sapha-gen2"
 
 
 #If you want to customize the disk sizes for VMs use the following parameter to specify the custom sizing file.
-custom_disk_sizes_filename = "AFS-NOEU-SAP01-RHA_custom_sizes.json"
+#custom_disk_sizes_filename = "AFS-NOEU-SAP01-RHA_custom_sizes.json"
 
 #If you want to provide a custom naming json use the following parameter.
 #name_override_file = ""

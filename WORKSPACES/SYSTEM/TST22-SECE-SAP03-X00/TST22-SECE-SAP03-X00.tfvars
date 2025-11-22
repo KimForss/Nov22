@@ -312,7 +312,7 @@ enable_app_tier_deployment = true
 app_tier_use_DHCP = true
 
 # sid is a mandatory field that defines the SAP Application SID
-sid = "RHA"
+sid = "X00"
 
 # disk_controller_type_app_tier defines the disk controller type for the application tier.
 # Valid values are "NVMe", or "SCSI"

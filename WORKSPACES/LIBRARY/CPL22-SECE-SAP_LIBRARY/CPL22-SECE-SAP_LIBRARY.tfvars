@@ -27,3 +27,6 @@ prevent_deletion_if_contains_resources = false
 
 
 
+
+# The parameter 'custom_random_id' can be used to control the random 3 digits at the end of the storage accounts and key vaults
+custom_random_id = "0f6"
